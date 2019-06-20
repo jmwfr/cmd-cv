@@ -1,0 +1,9 @@
+#console {
+  background-color: #000;
+  color: beige;
+  padding: 10px 10px;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  font-family: monospace;
+  min-width:379px;
+}
