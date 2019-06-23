@@ -1,0 +1,244 @@
+{
+    "skills": [ 
+        {
+            "title": "LANGAGES DE DEVELOPPEMENT / SCRIPTING",
+            "content": [
+                {
+                    "name": "C#.Net\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "VB.NET\t\t",
+                    "note": 3
+                },
+                {
+                    "name": "ASP.NET\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "Java\t\t\t",
+                    "note": 3
+                },
+                {
+                    "name": "PHP\t\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "Javascript\t",
+                    "note": 4
+                },
+                {
+                    "name": "jQuery\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "Python\t\t",
+                    "note": 1
+                }
+            ]
+        },
+        {
+            "title": "LANGAGES STRUCTURES",
+            "content": [
+                {
+                    "name": "HTML\t\t",
+                    "note": 5
+                },
+                {
+                    "name": "XML/XSLT\t",
+                    "note": 4
+                },
+                {
+                    "name": "SAML\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "CSS\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "JSON\t\t",
+                    "note": 5
+                }
+            ]
+        },
+        {
+            "title": "SYSTEMES D'EXPLOITATION",
+            "content": [
+                {
+                    "name": "Windows\t",
+                    "note": 4
+                },
+                {
+                    "name": "LINUX\t",
+                    "note": 3
+                },
+                {
+                    "name": "UNIX\t\t",
+                    "note": 3
+                },
+                {
+                    "name": "ANDROID\t",
+                    "note": 3
+                },
+                {
+                    "name": "MAC OSX\t",
+                    "note": 3
+                },
+                {
+                    "name": "NOVELL\t",
+                    "note": 2
+                }
+            ]
+        },
+        {
+            "title": "SYSTEMES DE BASES DE DONNEES",
+            "content": [
+                {
+                    "name": "SQL Server\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "MySQL/MariaDB\t",
+                    "note": 4
+                },
+                {
+                    "name": "Oracle\t\t\t",
+                    "note": 2
+                }
+            ]
+        },
+        {
+            "title": "LOGICIELS ET IDE",
+            "content": [
+                {
+                    "name": "Visual Studio\t",
+                    "note": 4
+                },
+                {
+                    "name": "Eclipse\t\t\t",
+                    "note": 2
+                },
+                {
+                    "name": "Office\t\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "SVN\t\t\t\t",
+                    "note": 3
+                },
+                {
+                    "name": "GIT\t\t\t\t",
+                    "note": 2
+                },
+                {
+                    "name": "TRAC\t\t\t\t",
+                    "note": 3
+                },
+                {
+                    "name": "WordPress\t\t",
+                    "note": 4
+                }
+            ]
+        }
+    ],
+    "career": {
+        "title": "PARCOURS PROFESSIONNEL",
+        "content": [
+            {
+                "company": "STAR Paris / STAR Group - Traduction Industrielle",
+                "years": "2002 - Aujourd'hui",
+                "title": "Informatique et Développement",
+                "tasks": [
+                    "Développement de services et interfaces pour la solution de workflow STAR CLM en fonction des besoins clients",
+                    "Analyse, conseils et mise en place de développements spécifiques sur cahiers des charges clients",
+                    "Développements spécifiques pour les besoins internes",
+                    "Consultant avant-vente pour les solutions techniques STAR",
+                    "Formations internes et externes aux solutions STAR",
+                    "Support technique clients et interne"
+                ]
+            },
+            {
+                "company": "MAXIPHONE / GROUPE MV2 – Télémarketing / Centres d’Appels",
+                "years": "2000 - 2002",
+                "title": "Directeur Informatique Adjoint",
+                "tasks": [
+                    "Audit et conseil pour la mise en place des solutions clients",
+                    "Mise en place de plateformes de réception et d’émission d’appels",
+                    "Mise en place et maintenance des outils matériels et logiciels spécifiques métier",
+                    "Gestion et maintenance du parc informatique, réseau et téléphonie"
+                ]
+            },
+            {
+                "company": "GS4 – Ingénierie en Communication",
+                "years": "1998 - 1999",
+                "title": "Responsable Technique",
+                "tasks": [
+                    "Analyse des besoins clients et conseil sur la mise en place d’outils de télécommunication",
+                    "Pilotage et réalisation de la mise en place des solutions côté client",
+                    "Maintenance et suivi évolutif des solutions côté client"
+                ]
+            }
+        ]
+    },
+    "achievs": {
+        "title": "PRINCIPALES REALISATIONS",
+        "content": [
+            {
+                "years": "2012 / 2018",
+                "text": "Mise en place d’une solution d’automatisation des flux de traduction pour le compte de divers grands comptes du Groupe STAR"
+            },
+            {
+                "years": "2011",
+                "text": "Mise en place d’une solution d’automatisation des flux de traduction pour le compte de la société DECATHLON."
+            },
+            {
+                "years": "2005",
+                "text": "Mise en place d’une solution d’automatisation des flux de traduction et de la terminologie pour la société EUROPAGES."
+            },
+            {
+                "years": "2002",
+                "text": "Mise en place d’une plateforme de réception d’appels pour la société ORANGE dans le cadre d’une cellule d’urgence."
+            },
+            {
+                "years": "2001",
+                "text": "Mise en place d’un centre d’appel pour le support technique utilisateurs d’un nouveau modèle de télévision interactive (TAK) pour la société THOMSON."
+            },
+            {
+                "years": "1999",
+                "text": "Audit des installations et mise à jour du parc de serveurs vocaux chez les clients grands comptes de la société (entre autres : Grand Palais, France Télévision, Chambre des Notaires de Paris, Théâtre de Champs-Elysées, etc.)"
+            }
+        ]
+    },
+    "langs": {
+        "title": "LANGUES PARLEES",
+        "content": [
+            {
+                "name": "Anglais\t\t\t",
+                "note": 4
+            },
+            {
+                "name": "Allemand\t\t\t",
+                "note": 2
+            },
+            {
+                "name": "Espagnol\t\t\t",
+                "note": 2
+            },
+            {
+                "name": "Créole Mauricien\t",
+                "note": 4
+            }
+        ]
+    },
+    "hobbies" : {
+        "title": "CENTRES D'INTERETS ET LOISIRS",
+        "content": [
+            "Jeux Vidéos (MMO RPG notamment)",
+            "Pêche (rivière et mer)",
+            "Dessin",
+            "Lecture",
+            "Auto-entrepreneur dans le domaine du développement web et logiciels"
+        ]
+    }
+}
