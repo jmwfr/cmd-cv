@@ -116,6 +116,14 @@
                     "note": 4
                 },
                 {
+                    "name": "VS Code\t\t\t",
+                    "note": 4
+                },
+                {
+                    "name": "NetBeans\t\t\t",
+                    "note": 2
+                },
+                {
                     "name": "Eclipse\t\t\t",
                     "note": 2
                 },
@@ -142,6 +150,24 @@
             ]
         }
     ],
+    "education": {
+        "title": "FORMATION",
+        "content" : [
+            {
+                "title": "Titre II Concepteur Développeur d’Applications",
+                "year": "Janvier 2020",
+                "skills": [
+                    "HTML/CSS/Javascript (jQuery)",
+                    "Dev. Mobile Hybride (IONIC/Angular)",
+                    "Dev. Mobile Android",
+                    "PHP OO/Symfony",
+                    "UML/Agile",
+                    "Java/Swing",
+                    "Big Data (MongoDB, Redis, Cassandra, Neo4J)"
+                ]
+            }
+        ]
+    },
     "career": {
         "title": "PARCOURS PROFESSIONNEL",
         "content": [

@@ -14,7 +14,7 @@ $('document').ready(function () {
         }
     },
         {
-            greetings: '[[;violet;]---------------------------------------------------\n|             ___  ______  ________  _________    |\n|            /  / /      |/       / /  ___   |    |\n|     ___   /  / /   /\\     /\\   / /  /___|  |    |\n|    /  /__/  / /   /  \\___/ /  / /  _____   |    |\n|   /________/ /___/        /__/ /__/     |__|    |\n|                                                 |\n|    Curriculum vitae - v: 1.0.0 - 20/06/2019     |\n|_________________________________________________|]\n\nBienvenue sur mon cv en ligne de commande !\nTapez "help" pour une liste des commandes\n',
+            greetings: '[[;violet;]---------------------------------------------------\n|             ___  ______  ________  _________    |\n|            /  / /      |/       / /  ___   |    |\n|     ___   /  / /   /\\     /\\   / /  /___|  |    |\n|    /  /__/  / /   /  \\___/ /  / /  _____   |    |\n|   /________/ /___/        /__/ /__/     |__|    |\n|                                                 |\n|    Curriculum vitae - v: 1.0.0 - 05/08/2020     |\n|_________________________________________________|]\n\nBienvenue sur mon cv en ligne de commande !\nTapez "help" pour une liste des commandes\n',
             name: 'cv_jma',
             height: 200,
             prompt: '[[;violet;]root@jma-cv>] ',
@@ -33,6 +33,9 @@ $('document').ready(function () {
                     break;
                 case "skills":
                     showSkills(terminal, args, jsonData.skills);
+                    break;
+                case "education":
+                    showEducation(terminal, args, jsonData.education);
                     break;
                 case "career":
                     showCareer(terminal, args, jsonData.career);
@@ -54,7 +57,7 @@ $('document').ready(function () {
 
     var showHelp = (terminal, args) => {
 
-        let data = "\n[[;yellow;]* LISTE DES COMMANDES *]\n\nhelp\t:\tAffiche cette liste de commandes\nskills\t:\tAffiche mes compétences techniques\ncareer\t:\tAffiche mon parcours professionnel\nachievs\t:\tAffiche mes principales réalisations\nlangs\t:\tAffiche les lanques que je parle\nhobbies\t:\tAffiche mes centres d'intérêts et loisirs\ndown\t:\tPour télécharger directement mon CV au format PDF\n\nVous pouvez aussi utiliser le nom d'une commande comme argument\npour afficher une aide spécifique.\n\nFormat : help <commande>\nExemple : help skills\n";
+        let data = "\n[[;yellow;]* LISTE DES COMMANDES *]\n\nhelp\t\t:\tAffiche cette liste de commandes\nskills\t\t:\tAffiche mes compétences techniques\neducation\t:\tAffiche mes formations et diplomes\ncareer\t\t:\tAffiche mon parcours professionnel\nachievs\t\t:\tAffiche mes principales réalisations\nlangs\t\t:\tAffiche les lanques que je parle\nhobbies\t\t:\tAffiche mes centres d'intérêts et loisirs\ndown\t\t:\tPour télécharger directement mon CV au format PDF\n\nVous pouvez aussi utiliser le nom d'une commande comme argument\npour afficher une aide spécifique.\n\nFormat : help <commande>\nExemple : help skills\n";
 
         if (args.length > 1) {
             //terminal.echo('too much');
@@ -125,13 +128,36 @@ $('document').ready(function () {
             }
         }
         else if (args[0]) {
-            console.log("one arg");
             let skill = skills[args[0] - 1];
-            console.log(skill);
             data = getNotedCategory(skill);
         }
         terminal.echo(data);
     }
+
+    var showEducation = (terminal, args, education) => {
+        var data = "\n[[;yellow;]* " + education.title + " *]\n\n";
+        for (let c = 0; c < education.content.length; c++) {
+            data += getDiploma(education.content[c]);
+        }
+        terminal.echo(data);
+    }
+
+    var getDiploma = (diploma) => {
+        data = "[[;orange;]";
+        data += "** " + diploma.title + " **] ";
+        data += "[[;violet;](";
+        data += diploma.year + ")]\n\n";
+        data += "[[;pink;]Domaines de formation :]\n\n"
+
+        count = "1";
+        for(skill of diploma.skills) {
+            data += count + ". " + skill + "\n";
+            count++;
+        }
+
+        data += "\n";
+        return data;
+    };
 
     var getCareer = (career) => {
         data = "[[;violet;]";
@@ -179,6 +205,6 @@ $('document').ready(function () {
     }
 
     var showPDF = () => {
-        window.open("/data/CV_JM_Aubertin.pdf");
+        window.open("/data/CV_CDA_JM_Aubertin.pdf");
     }
 });
